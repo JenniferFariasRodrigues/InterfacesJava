@@ -1,0 +1,17 @@
+package model.services;
+
+public class PaypalService {
+
+	public interface OnlinePaymentService {
+
+		public static Double paymentFee(Double amount) {
+			return null;
+		}
+
+		public static Double Interest(Double amount, Integer months) {
+			return null;
+		}
+
+	}
+
+}

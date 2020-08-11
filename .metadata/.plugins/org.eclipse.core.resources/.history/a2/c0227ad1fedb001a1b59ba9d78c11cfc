@@ -1,0 +1,17 @@
+package model.services;
+
+public class PaypalService implements OnlinePaymentService {
+
+	public static Double paymentFee(Double amount) {
+		if(amount <=100.0) {
+			return amount*0.1;
+		}else {
+			return amount*0.15;
+		}
+	}
+
+	public static Double Interest(Double amount, Integer months) {
+		return null;
+	}
+
+}

@@ -1,0 +1,15 @@
+package model.services;
+import model.entities.Installment;
+import model.entities.Contract;
+
+public interface OnlinePaymentService {
+	
+	public static Double paymentFee( Double amount) {
+		return null;
+	}
+	
+	public static void Interest( Double amount, Integer months) {
+		return;
+	}
+
+}

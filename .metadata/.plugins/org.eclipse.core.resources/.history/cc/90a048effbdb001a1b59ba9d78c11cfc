@@ -1,0 +1,15 @@
+package model.services;
+
+import model.entities.Contract;
+
+public class ContractService {
+	
+	public ContractService() {
+		
+	}
+	
+	public void processcontract(contract Contract, Integer months) {
+		
+	}
+
+}

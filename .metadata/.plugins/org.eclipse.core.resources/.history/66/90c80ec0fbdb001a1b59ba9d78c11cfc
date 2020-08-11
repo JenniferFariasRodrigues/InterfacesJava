@@ -1,0 +1,13 @@
+package model.services;
+
+public class ContractService {
+	
+	public ContractService() {
+		
+	}
+	
+	public void processcontract(contract Contract, Integer months) {
+		
+	}
+
+}

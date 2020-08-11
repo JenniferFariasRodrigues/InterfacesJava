@@ -1,0 +1,10 @@
+package model.services;
+
+public class BrazilTaxService {
+	//double tipo primitivo  pq sempre vai retornar um valor no argumento.
+	//Nao tera valor nulo.
+	public double tax(double amount) {
+		
+	}
+
+}
